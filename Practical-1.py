@@ -95,7 +95,7 @@ z-=y
 print(z) #Subtract AND
 z*=x
 print(z) #Multiply AND
-z/=y 
+z/=y
 print(z) #Divide AND
 
 #Logical Operators
@@ -185,7 +185,7 @@ print(Dict.items())#list of tuple pairs
 print(len(Dict))#length
 
 #key is present or not
-print('A' in Dict) 
+print('A' in Dict)
 print(1 in Dict)
 
 #Nested Dictionary
@@ -200,43 +200,40 @@ print(Dict)
 
 #Accessing using key
 Dict = {1: 'First', 'name': 'Name here', 3: '!First'}
-print(Dict['name']) 
-print(Dict[1]) 
+print(Dict['name'])
+print(Dict[1])
 
 #Accessing using get()
 print(Dict.get(3))
 
 #Deletion in DIctionaries
 
-Dict = { 5 : 'Welcome', 6 : 'To', 7 : 'Deletion', 
-        'A' : {1 : 'One', 2 : 'Two', 3 : 'Three'}, 
-        'B' : {1 : 'AOne', 2 : 'BTwo'}} 
+Dict = { 5 : 'Welcome', 6 : 'To', 7 : 'Deletion',
+        'A' : {1 : 'One', 2 : 'Two', 3 : 'Three'},
+        'B' : {1 : 'AOne', 2 : 'BTwo'}}
 
-  
-# Deleting a Key value 
-del Dict[6] 
-print(Dict) 
-  
-# Deleting a Key from Nested Dictionary 
-del Dict['A'][2] 
-print(Dict) 
-  
-# Deleting a Key using pop() 
-Dict.pop(5) 
-print(Dict) 
-  
-# Deleting Key-value pair using popitem() 
-Dict.popitem() 
-print(Dict) 
-  
-# Deleting entire Dictionary 
-Dict.clear() 
-print(Dict) 
 
-#update
-Dict = {'A': 18,'C':12,'T':22,'R':25}	
-Dict.update({"S":9})
+# Deleting a Key value
+del Dict[6]
 print(Dict)
 
-#Demo Changes
-print('Demo Changes')
+# Deleting a Key from Nested Dictionary
+del Dict['A'][2]
+print(Dict)
+
+# Deleting a Key using pop()
+Dict.pop(5)
+print(Dict)
+
+# Deleting Key-value pair using popitem()
+Dict.popitem()
+print(Dict)
+
+# Deleting entire Dictionary
+Dict.clear()
+print(Dict)
+
+#update
+Dict = {'A': 18,'C':12,'T':22,'R':25}
+Dict.update({"S":9})
+print(Dict)
