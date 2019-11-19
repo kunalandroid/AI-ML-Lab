@@ -54,4 +54,5 @@ x_train = sc_x.fit_transform(x_train)
 x_test = sc_x.fit_transform(x_test)
 
 print("\n")
-print(x)
+print(x_train)
+print(x_test)
