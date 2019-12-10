@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Logistic regression with python
-Prediction of diabetes outcome
-@author: Antoi
-"""
 import pandas as pd
 import numpy as np
 Diabetes=pd.read_csv('diabetes.csv')
